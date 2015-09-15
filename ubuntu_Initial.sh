@@ -1,5 +1,5 @@
-#!/bin/sh
-#
+#!/bin/bash
+
 ###########
 apt-get update && apt-get upgrade && apt-get dist-upgrade -y
 apt-get autoremove && apt-get autoclean -y
